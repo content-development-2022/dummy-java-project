@@ -2,6 +2,8 @@
 
 ## Please follow the steps given below to push a java project from your computer to a remote github repository
 
+### Pre-requisite: Create a remote repository in your Github Account 
+
 ### Step 1 - Gitbash in the working directory
 
  - Right click on the working directory(the directory where you have your project)
@@ -33,8 +35,7 @@
  - The git command is 
        git commit -m "<comit message>"
 
-### Step 6 - Configure local git with user name and email so we will know who pushed the 
-code to github
+### Step 6 - Configure local git with user name and email so we will know who pushed the code to github
 
  - The git commands are
  
