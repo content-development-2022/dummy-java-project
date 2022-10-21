@@ -2,7 +2,9 @@
 
 ## Please follow the steps given below to push a java project from your computer to a remote github repository
 
-### Pre-requisite: Create a remote repository in your Github Account 
+### Pre-requisite: Create a remote repository using Github Account. 
+
+### Note: All the steps mentioned below is performed on the local.
 
 ### Step 1 - Gitbash in the working directory
 
@@ -38,21 +40,17 @@
 ### Step 6 - Configure local git with user name and email so we will know who pushed the code to github
 
  - The git commands are
- 
        git config --global user.name "<username>"
-
        git config --global user.email "<emailid>"
 
 ### Step 7 - Specify the remote github repository url to which we would want to push the files to
  
  - The git command is
-  
        git remote add origin <github url>
 
 ### Step 8 - Push the files to the remote repo
 
  - The git command is
- 
        git push --set-upstream origin main
 
  - If remote repo is 1 or more comit ahead of local repo we will get the error
@@ -66,3 +64,5 @@
  - And then run the command once again
 
       git push --set-upstream origin main
+ 
+### Step 9 - Verify whether the files are pushed to the remote repository that was created using the Github Account.
